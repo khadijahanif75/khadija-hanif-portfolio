@@ -1,0 +1,9 @@
+# Netlify auto-detects Next.js (13.5+) and deploys it via its built-in
+# OpenNext adapter with zero configuration — no plugin declaration or
+# publish directory is required, and Netlify's docs explicitly advise
+# against pinning the adapter version.
+#
+# This file only pins the build command for clarity; it is not required
+# for the deploy to work.
+[build]
+  command = "npm run build"
