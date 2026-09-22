@@ -13,10 +13,9 @@ export const siteConfig = {
   phone: "+92 313 4746466",
   location: "Lahore, Pakistan",
   links: {
-    github: "https://github.com/kadijahanif75",
-    linkedin: "https://www.linkedin.com/in/khadijahanif75",
-    // Replace with your actual LeetCode profile URL when ready.
-    leetcode: "#",
+    github: "https://github.com/khadijahanif75",
+    linkedin: "www.linkedin.com/in/khadijahanif75",
+    leetcode: "https://leetcode.com/u/khadijahanif_75/",
   },
   profileImage: "/images/profile.jpg",
   ogImage: "/images/og-cover.png",

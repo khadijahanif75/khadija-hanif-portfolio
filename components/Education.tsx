@@ -24,9 +24,9 @@ export function Education() {
             <span className="chip">GPA 3.56 / 4.00</span>
           </div>
           <p className="mt-5 text-[15px] leading-relaxed text-ink/60 dark:text-paper/60">
-            Relevant coursework: Artificial Intelligence, Programming
-            Fundamentals, Object-Oriented Programming, Data Structures &amp;
-            Algorithms, Database Systems.
+            Relevant coursework: Calculus, Statistics, Artificial Intelligence,Machine Learning, Data Mining, Data Visualization, Programming
+          Fundamentals, Object-Oriented Programming, Data Structures &amp;
+          Algorithms, Database Systems, Operating System, Computer Netwroks.
           </p>
         </div>
       </Reveal>
