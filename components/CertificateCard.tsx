@@ -69,7 +69,7 @@ export function CertificateCard({ certificate, imageExists }: CertificateCardPro
         {certificate.title}
       </h3>
       <p className="text-[14px] text-ink/60 dark:text-paper/60 mt-0.5">
-        {certificate.organization} · {certificate.date}
+        {certificate.issuer} · {certificate.date}
       </p>
     </div>
   );
@@ -140,7 +140,7 @@ export function CertificateCard({ certificate, imageExists }: CertificateCardPro
                     {certificate.title}
                   </h3>
                   <p className="text-[14px] text-ink/60 dark:text-paper/60">
-                    {certificate.organization} · {certificate.date}
+                    {certificate.issuer} · {certificate.date}
                   </p>
                 </div>
                 {certificate.credentialUrl && (
