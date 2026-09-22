@@ -18,24 +18,6 @@ npm run build
 npm start
 ```
 
----
-
-## Where everything lives
-
-| What | File |
-|---|---|
-| Name, email, location, social links, CV/photo paths | `config/site.ts` |
-| Projects | `data/projects.ts` |
-| Certificates | `data/certificates.ts` |
-| Experience / internship | `data/experience.ts` |
-| Skills & research interests | `data/skills.ts` |
-| Achievements (currently empty) | `components/Achievements.tsx` (the `items` array at the top) |
-| Images, PDFs | `public/` |
-
-Every list above renders automatically from its data file — components never need to be touched to add, remove, or edit an entry.
-
----
-
 ## Asset folder structure
 
 ```
